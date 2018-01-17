@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "StoryModel",
+	"name" : "SerializableModel",
 	"type" : "normal"
 }
