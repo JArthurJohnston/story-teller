@@ -1,0 +1,3 @@
+getter
+password
+	^ password
