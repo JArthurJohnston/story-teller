@@ -19,6 +19,7 @@ teapot := Teapot on
 	GET: '/welcome' -> 'Hello World!'; 
 	start.
 ``
+
 4	Navigate to localhost:1701. If all is working you should see 'Hello 'World'
 5	In the same playground window, run the following to stop the server.
 
