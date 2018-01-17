@@ -44,4 +44,11 @@ teapot := Teapot on
 2.	Click the +Repository button
 3.	Select gitfiletree://
 4.	Navigate to the folder with the repository and click ok. Pharo should open a repository browser.
-5.	In the left panel, you should see the StoryTelling Package. Select it and click pull
+5.	In the right panel, you should see a list of changes. Select the last one and click Load
+6.	Open the system browser (Crtl+O+B) and search for StoryTelling in the package list.
+7.	Expand the package, right click on the Tests tag, and select run tests. They should all be green.
+
+
+Enjoy smalltalking!
+
+PS. Just use the command line to push code. The usual git commands will work fine, push, pull, rebase, etc...
