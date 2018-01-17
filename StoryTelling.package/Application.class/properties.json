@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "StoryTelling-Server",
+	"classinstvars" : [
+		"class",
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controller"
+	],
+	"name" : "Application",
+	"type" : "normal"
+}

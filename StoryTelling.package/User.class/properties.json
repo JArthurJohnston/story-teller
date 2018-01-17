@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "StoryModel",
+	"category" : "StoryTelling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "User",
+	"type" : "normal"
+}

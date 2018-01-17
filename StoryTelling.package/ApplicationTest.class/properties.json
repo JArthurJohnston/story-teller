@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "StoryTelling-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"app",
+		"testPort",
+		"testUrl",
+		"znClient"
+	],
+	"name" : "ApplicationTest",
+	"type" : "normal"
+}

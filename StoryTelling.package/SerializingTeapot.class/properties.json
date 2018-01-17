@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Teapot",
+	"category" : "StoryTelling-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SerializingTeapot",
+	"type" : "normal"
+}

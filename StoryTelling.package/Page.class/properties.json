@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "StoryModel",
+	"category" : "StoryTelling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"text",
+		"choices"
+	],
+	"name" : "Page",
+	"type" : "normal"
+}
