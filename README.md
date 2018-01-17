@@ -3,7 +3,7 @@
 # Environment Setup
 
 
----Installing Teapot---
+**Installing Teapot**
 
 1	Download and unzip the latest version of Pharo smalltalk. Once downloaded run the pharo shell script.
 2	Once inside the image, open a playground (Ctrl+O+W) and run the following to download the teapot REST library:
@@ -30,15 +30,15 @@ teapot := Teapot on
 
 ``teapot stop.``
 
----Installing GitFileTree---
+**Installing GitFileTree**
 1.	Open the Catalog Browser. Single click anywhere in the image (on the background, not a window) and select Tools>Catalog Browser.
 2.	Search for 'GitFileTree'. It should appear in the Available List.
 3.	Right click on it and select 'Install stable version'. You'll see some loading dialogs flash in the upper left corner of the image. Once they've finished, you're done.
 
 
----Pulling in the Source Code---
+**Pulling in the Source Code**
 
-**Make sure you don't have any un-commited changes**
+*Make sure you don't have any un-commited changes
 
 1.	Open the Monticello Browser (Ctrl+O+P)
 2.	Click the +Repository button
@@ -51,4 +51,4 @@ teapot := Teapot on
 
 Enjoy smalltalking!
 
-PS. Just use the command line to push code. The usual git commands will work fine, push, pull, rebase, etc...
+PS. Just use the command line to commit & push code. The usual git commands will work fine, push, pull, rebase, etc...
