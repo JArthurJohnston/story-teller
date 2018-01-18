@@ -38,7 +38,9 @@
 
 **Installing MongoDB and Voyage***
 
-	Install mongo on your machine following the instructions listed here:
+1.	Install VoyageMongo using the Catalog browser.
+
+2.	Install mongodb on your machine following the instructions listed here:
 	https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
 
