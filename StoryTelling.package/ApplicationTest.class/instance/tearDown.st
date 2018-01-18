@@ -1,4 +1,7 @@
 tests
 tearDown
 	app controller server stop.
-	super tearDown .
+	Page removeAll.
+	User removeAll.
+	VORepository setRepository: Application database.
+	super tearDown.

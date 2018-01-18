@@ -8,3 +8,4 @@ setUp
 			{(#defaultOutput -> #json).
 			(#port -> testPort).
 			(#debugMode -> true).}.
+	self initializeTestDatabase .

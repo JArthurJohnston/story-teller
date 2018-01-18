@@ -8,3 +8,4 @@ testStartWith
 	self assert: app controller notNil.
 	self assert: app controller server port equals: testPort.
 	self assert: app controller server isRunning.
+	self assert: Application databaseName equals: 'StoryTeller'.

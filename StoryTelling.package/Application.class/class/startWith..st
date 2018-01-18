@@ -1,7 +1,8 @@
 construction
 startWith: aCollectionOfConfigurations
 	| server |
-	server := SerializingTeapot  configure: aCollectionOfConfigurations.
+	server := SerializingTeapot configure: aCollectionOfConfigurations.
+	self initializeDatabase .
 	self createRoutesFor: server.
 	server start.
 	^ self new

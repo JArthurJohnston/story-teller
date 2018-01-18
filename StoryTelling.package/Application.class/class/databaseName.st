@@ -1,0 +1,3 @@
+construction
+databaseName
+	^ database databaseName.

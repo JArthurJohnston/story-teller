@@ -3,13 +3,14 @@
 	"super" : "Object",
 	"category" : "StoryTelling-Server",
 	"classinstvars" : [
-		"class",
-		"current"
+		"current",
+		"database"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"controller"
+		"controller",
+		"database"
 	],
 	"name" : "Application",
 	"type" : "normal"
