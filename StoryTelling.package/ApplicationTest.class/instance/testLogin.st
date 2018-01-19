@@ -1,9 +1,12 @@
 tests
 testLogin
-	| pages expectedPage |
-	expectedPage := Page newWrittenWith: 'hello world'.
-	expectedPage save.
+	| user token userEmail |
+	userEmail := 'hi@world.com'.
+	user := User createWithEmail: userEmail andPassword: 'You cant always get what you want'.
+	user save.
 
-	pages := self sendPostRequestTo: 'http://localhost:9090/login' with: '{"email":"joe.a.johnston@gmail.com"}'.
+	token := self
+		sendPostRequestTo: 'http://localhost:8080/login'
+		with: '{"email":"' , userEmail , '"}'.
 
-	self assert: pages equals: '[{"text":"hello world","choices":[]}]'.
+	self assert: token isNotEmpty.
