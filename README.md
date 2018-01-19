@@ -2,6 +2,10 @@
 
 # Environment Setup
 
+**Pharo Dependencies**
+
+1.	Install libcairo
+	``sudo apt-get install libcairo2:i386``
 
 **Installing Teapot**
 
