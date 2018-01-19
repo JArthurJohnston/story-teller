@@ -1,0 +1,3 @@
+tests
+testLoginReturnsErrorIfPzzwordIsIncorrect
+	self fail.
