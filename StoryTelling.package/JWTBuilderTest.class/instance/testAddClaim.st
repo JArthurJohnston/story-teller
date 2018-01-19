@@ -1,9 +1,9 @@
 tests
 testAddClaim
-	| builder jwt expectedClaim |
+	| builder expectedClaim |
 	builder := JWTBuilder new.
 
 	expectedClaim := 'email' -> 'hello@world.com'.
 	builder addClaim: expectedClaim.
 
-	self assert: (builder claims contains: expectedClaim ).
+	self assert: builder claims first equals: expectedClaim.

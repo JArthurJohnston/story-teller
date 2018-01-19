@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "SerializableModel",
 	"category" : "StoryTelling",
 	"classinstvars" : [ ],

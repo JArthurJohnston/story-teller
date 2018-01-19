@@ -1,12 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "StoryTelling-Server",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"claims"
+		"claims",
+		"encoder",
+		"hashFunction"
 	],
 	"name" : "JWTBuilder",
 	"type" : "normal"

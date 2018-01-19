@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Teapot",
-	"category" : "StoryTelling-Server",
+	"super" : "PackageManifest",
+	"category" : "StoryTelling",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SerializingTeapot",
+	"name" : "ManifestStoryTelling",
 	"type" : "normal"
 }
