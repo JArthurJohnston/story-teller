@@ -4,12 +4,18 @@
 
 **Pharo Dependencies**
 
-1.	Install libcairo
-	``sudo apt-get install libcairo2:i386``
+1.	Unfortunately, the 64 Bit version of Pharo still has some bugs to work out. If you're using a 64 bit OS, you'll need to install the following:
+
+	``
+	sudo apt-get install libcairo2:i386
+	sudo dpkg --add-architecture i386
+	sudo apt-get update
+	sudo apt-get install ia32-libs
+	``
 
 **Installing Teapot**
 
-1.	Download and unzip the latest version of Pharo smalltalk. Once downloaded run the pharo shell script.
+1.	Download and unzip the latest version of Pharo smalltalk 32-Bit. Once downloaded run the pharo shell script.
 2.	Once inside the image, open a playground (Ctrl+O+W) and run the following to download the teapot REST library:
 
 	``
@@ -18,6 +24,7 @@
 		configuration;
 		loadStable.
 	``
+
 	You should see some loading windows flash in the upper left corner of the image.
 
 
