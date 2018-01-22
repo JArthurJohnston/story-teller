@@ -9,8 +9,7 @@
 		"app",
 		"testPort",
 		"testUrl",
-		"znClient",
-		"testDatabase"
+		"znClient"
 	],
 	"name" : "ApplicationTest",
 	"type" : "normal"

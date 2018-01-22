@@ -6,7 +6,7 @@ testLogin
 	user save.
 
 	token := self
-		sendPostRequestTo: 'http://localhost:8080/login'
+		sendPostRequestTo: 'login'
 		with: '{"email":"' , userEmail , '"}'.
 
 	self assert: token isNotEmpty.

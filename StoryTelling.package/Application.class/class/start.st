@@ -1,7 +1,8 @@
 construction
 start
 	current :=  self
-		startWith:
-			{(#defaultOutput -> #json).
-			(#port -> 8080).
-			(#debugMode -> true).}.
+		startWith: (Array 
+			with: #defaultOutput -> #json 
+			with: #port -> 8080 
+			with: #debugMode -> true).
+	^ current.

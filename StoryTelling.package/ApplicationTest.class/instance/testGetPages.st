@@ -4,6 +4,6 @@ testGetPages
 	expectedPage := Page newWrittenWith: 'hello world'.
 	expectedPage save.
 
-	pages := self sendGetRequestTo: 'http://localhost:9090/pages'.
+	pages := self sendGetRequestTo: 'pages'.
 
 	self assert: pages equals: '[{"text":"hello world","choices":[]}]'.

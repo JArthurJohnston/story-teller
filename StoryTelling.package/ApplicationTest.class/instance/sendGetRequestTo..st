@@ -1,3 +1,3 @@
 tests
 sendGetRequestTo: aUrlString
-	^znClient get: aUrlString 
+	^znClient get: testUrl , aUrlString 
