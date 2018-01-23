@@ -1,10 +1,9 @@
 accessing
 signature
-	|hmac encodedHeader encodedPayload|
-	hmac := HMAC on: self hashFunction.
-	hmac key: self key.
-	encodedHeader := (self encoder encode: self header asByteArray) asString.
-	encodedPayload := (self encoder encode: self payload asByteArray) asString.
-	^(hmac digestMessage: (encodedHeader , '.', encodedPayload) asByteArray) asString.
-	 
-	
+	| encodedHeader encodedPayload signature|
+	encodedHeader := self base64Encode: self header.
+	encodedPayload := self base64Encode: self payload.
+	signature := hmac digestMessage: (encodedHeader , '.' , encodedPayload) asByteArray.
+	^ (encoder
+		encode: signature) 
+		asString.
